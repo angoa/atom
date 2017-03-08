@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/d-11722-1752-wtd38q/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/d-11722-1752-wtd38q/package.tgz",
+        "spec": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/d-11722-1752-wtd38q/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/apm-install-dir-11722-1752-1rcft7v"
+    ]
+  ],
+  "_from": "../d-11722-1752-wtd38q/package.tgz",
+  "_id": "save-session@0.15.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/save-session",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/d-11722-1752-wtd38q/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/d-11722-1752-wtd38q/package.tgz",
+    "spec": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/d-11722-1752-wtd38q/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11722-1752-wtd38q/package.tgz",
+  "_shasum": "7db2aa14fc44e9636cc0ce463b7ee4ac717026d9",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/d-11722-1752-wtd38q/package.tgz",
+  "_where": "/private/var/folders/1j/_ycm7q4s6890ndlghv03cslw0000gn/T/apm-install-dir-11722-1752-1rcft7v",
+  "bugs": {
+    "url": "https://github.com/mpeterson2/save-session/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "mkdirp": ">=0.5.0"
+  },
+  "description": "An Atom package to restore your session.",
+  "devDependencies": {
+    "q": "^1.0.1"
+  },
+  "engines": {
+    "atom": ">0.193.0"
+  },
+  "homepage": "https://github.com/mpeterson2/save-session#readme",
+  "license": "MIT",
+  "main": "./lib/save-session",
+  "name": "save-session",
+  "optionalDependencies": {},
+  "readme": "# Save Session (Atom Package) [![Build Status](https://travis-ci.org/mpeterson2/save-session.svg?branch=master)](https://travis-ci.org/mpeterson2/save-session)\n\n## Project Status: Undeprecated\n\nSince not all of Save Session's functionality has been added into Atom's core,\nSave Session is now undeprecated and has been modified to work with Atom 0.193.0.\nAll that Save Session does now is manage unsaved files.\n\nCheck out [this issue](https://github.com/atom/atom/issues/942)\nfor the status of this functionality being added to Atom core.\n\n## What is Save Session\n\nSave Session is designed to reopen your last session in [Atom](https://atom.io/).\nIt automatically saves all file's contents in the background so you don't have\nto worry as much about losing an important file. I liked how\n[Sublime Text](http://www.sublimetext.com/) does this, so I wanted to recreate\nit for Atom.\n\n![preview](https://raw.githubusercontent.com/mpeterson2/save-session/master/preview.gif)\n\n## Settings\n\n - `Data Save Folder` - The root folder to save the session data in.\n - `Restore Open File Contents` - Whether or not file contents will be\n automatically restored on load.\n - `Skip Save Prompt` - This will disable the save on exit prompt.\n - `Extra Delay` - Adds an extra delay for saving files when typing.\n\n## How it works\n\nFile info is stored in a folder at\n`<atom package dir>/save-session/<project path>/projects.json` by default and\ngets reloaded at when you reopen the same project again.\n\n## Contributing\n\nFeel free to submit issues if you see anything misbehaving. The more information\nyou can give me about your issue the better. Things like operating system, Atom\nversion, Save Session version, your Save Session config, other installed\npackages, and any error messages in the console that mention Save Session are\nhelpful.\n\nPull requests are also welcome if you want to improve or change something.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpeterson2/save-session.git"
+  },
+  "version": "0.15.7"
+}
