@@ -23,3 +23,5 @@
       "highlight-selectedDecorationsZIndex": 0
   "save-session":
     dataSaveFolder: "/Users/angoa/.atom/packages/save-session/projects"
+  welcome:
+    showOnStartup: false
